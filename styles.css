@@ -1,0 +1,38 @@
+/* STYLES */
+
+body {
+    background: rgb(155, 197, 193);
+color: rgb(118, 6, 112);
+font-family:'Skranji', cursive;
+ font-family: 
+
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+font-weight:bold;
+}
+
+main {
+max-width: 650px; 
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 100px;
+
+}
+
+h1{
+
+   font-size: 72px;
+   letter-spacing:  -2px;
+   line-height: 70px;
+   color: purple;
+   font-weight: 
+}
+div.anim{
+    animation-name: anim;
+    animation-duration: 2.5s;
+}
+@keyframes anim{
+    0% {opacity: 0; transform: translateY(200px);}
+    100% {opacity: 1; transform: translateY(0px);}
+}
